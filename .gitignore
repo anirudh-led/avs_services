@@ -2,7 +2,6 @@
 /node_modules
 
 # Frontend (React) build files
-/frontend/build
 /frontend/node_modules
 
 # Backend (Express) build files (if applicable, e.g., for TypeScript or compiled code)
