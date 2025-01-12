@@ -8,7 +8,7 @@ const PaymentForm = () => {
   const [notes, setNotes] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:4000/workers', {
+    fetch('https://avs-services-backend.vercel.app/workers', {
       method: 'GET',
       headers: {
         'Content-type': 'application/json'

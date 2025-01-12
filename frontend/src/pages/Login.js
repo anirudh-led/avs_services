@@ -14,7 +14,7 @@ const Login = () => {
             password: password,
         };
 
-        fetch("http://localhost:4000/login", {
+        fetch("https://avs-services-backend.vercel.app/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

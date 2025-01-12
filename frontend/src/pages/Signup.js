@@ -16,7 +16,7 @@ const Signup = () => {
             salary: salary,
         };
 
-        fetch("http://localhost:4000/signup", {
+        fetch("https://avs-services-backend.vercel.app/signup", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
