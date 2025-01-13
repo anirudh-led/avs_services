@@ -14,7 +14,7 @@ const Login = () => {
             password: password,
         };
 
-        fetch("https://avs-services-backend.vercel.app/login", {
+        fetch("https://avs-services-backend.onrender.com/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

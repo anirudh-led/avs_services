@@ -16,7 +16,7 @@ const Signup = () => {
             salary: salary,
         };
 
-        fetch("https://avs-services-backend.vercel.app/signup", {
+        fetch("https://avs-services-backend.onrender.com/signup", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
